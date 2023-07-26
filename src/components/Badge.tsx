@@ -54,14 +54,14 @@ export const Badge = (props: Props) => {
     }}>Powered by
       <a
         ref={liteBadge}
-        href={'https://hamoudy.dev'}
+        href={'https://dearborn.io'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Hamoudy</span>
+        <span> Dearborn.io</span>
       </a>
     </span>
   )
